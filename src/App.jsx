@@ -67,7 +67,7 @@ export default function App() {
           <Route key="0" path="/" exact>
             <Redirect to="/users/" />
           </Route>
-          <Route key="1" path="login">
+          <Route key="1" path="/login">
             <LoginPage
               setSelectState={setSelectState}
               setIsLogin={setIsLogin}
@@ -76,7 +76,7 @@ export default function App() {
               setUserInfo={setUserInfo}
             />
           </Route>
-          <Route key="2" path="signup">
+          <Route key="2" path="/signup">
             <SignUpPage
               setSelectState={setSelectState}
               setIsLogin={setIsLogin}
@@ -85,10 +85,10 @@ export default function App() {
               setUserInfo={setUserInfo}
             />
           </Route>
-          <Route key="3" path="users/" exact>
+          <Route key="3" path="/users/" exact>
             {isLogin === true && <UserListPage />}
           </Route>
-          <Route key="4" path="users/:userId" exact>
+          <Route key="4" path="/users/:userId" exact>
             <UserPage
               authToken={authToken}
               userInfo={userInfo}
@@ -96,7 +96,7 @@ export default function App() {
               setUserInfo={setUserInfo}
             />
           </Route>
-          <Route key="5" path="users/:userId/edit">
+          <Route key="5" path="/users/:userId/edit">
             <UserPageEdit
               authToken={authToken}
               userInfo={userInfo}
