@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08cad4406dec9469f641d30fcb213b64",
+    "revision": "9d6f0ed950e677f231f90a3830035f27",
     "url": "/weblab-practice/index.html"
   },
   {
-    "revision": "c4f3cdf660b31e611617",
+    "revision": "b3c7a719f45e89f376f7",
     "url": "/weblab-practice/static/css/main.9b1431d8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weblab-practice/static/js/2.49c371db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c4f3cdf660b31e611617",
-    "url": "/weblab-practice/static/js/main.23a8824b.chunk.js"
+    "revision": "b3c7a719f45e89f376f7",
+    "url": "/weblab-practice/static/js/main.62da15f2.chunk.js"
   },
   {
     "revision": "ea90663b932329a8b89c",
